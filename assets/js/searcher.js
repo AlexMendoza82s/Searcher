@@ -80,7 +80,6 @@ let rXML = async ( urlxml,arr ) => {
   let _filter=txtFilter.value;
   llamada(_filter);
  });
- debugger;
  llamada('');
  
 
