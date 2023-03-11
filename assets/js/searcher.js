@@ -1,5 +1,5 @@
-let urlJs='https://raw.githubusercontent.com/Bootcamp-Espol/FSD02/main/S03D03/clase/recursos/products.json';
-let urlxml='https://raw.githubusercontent.com/Bootcamp-Espol/FSD02/main/S03D03/clase/recursos/products.xml';
+let urlJs='https://raw.githubusercontent.com/Bootcamp-Espol/Datos/main/products.json';
+let urlxml='https://raw.githubusercontent.com/Bootcamp-Espol/Datos/main/products.xml';
 let _html='';
 
 let rJSON = async ( urlJs,arr ) => {
@@ -80,6 +80,7 @@ let rXML = async ( urlxml,arr ) => {
   let _filter=txtFilter.value;
   llamada(_filter);
  });
+ debugger;
  llamada('');
  
 
