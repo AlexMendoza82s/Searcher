@@ -13,6 +13,7 @@ let rJSON = async ( urlJs,arr ) => {
   } catch (error) 
   {
     console.log( error );
+    
   }
 };
 let rXML = async ( urlxml,arr ) => {
